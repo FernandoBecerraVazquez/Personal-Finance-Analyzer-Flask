@@ -1,0 +1,33 @@
+# Archivos y directorios de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+.venv/
+venv/  # Tu entorno virtual de Python
+env/   # Posiblemente otro nombre para el entorno virtual
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de configuración y datos sensibles
+transactions.csv  # ¡IMPORTANTE! Asegura que este archivo NO se suba
+.env             # Si usas archivos .env para variables de entorno
+*.env
+
+# Archivos específicos de sistemas operativos
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Archivos de depuración de editores
+.vscode/ # Si usas VS Code y no quieres subir sus configuraciones específicas
+*.sublime-project
+*.sublime-workspace
+.idea/ # PyCharm
+
+# Archivos de log
+*.log
